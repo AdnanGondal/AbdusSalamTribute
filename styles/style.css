@@ -1,0 +1,49 @@
+html {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body{
+
+    font-family: 'Sora', sans-serif;
+    color: black;
+    background-color: #ffffE0;
+   
+}
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 3rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto; 
+}
+
+#title{
+    text-align: center;
+}
+
+#img1-div{
+    text-align: center;
+}
+
+#image1{
+    max-height: 600px;
+}
+
+#img-info{
+    font-weight: lighter;
+    font-size: 1.5rem ;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#tribute-info{
+    margin: 0px 10px 0px 10px;
+    font-size: 2rem;
+}
