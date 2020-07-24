@@ -1,7 +1,6 @@
 html {
     font-size: 10px;
     
-
 }
 body{
     font-family: 'Sora', sans-serif;
@@ -12,6 +11,28 @@ body{
     justify-content: center;
     
 }
+
+header{
+    padding-top: 10px;
+    text-align: center;
+}
+nav{
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.links{
+    margin: 20px 20px 20px 20px;
+    
+}
+
+
 
 h1 {
     font-size: 5rem;
@@ -27,6 +48,7 @@ img{
 
 #title{
     text-align: center;
+    margin: 0px 0px 10px 0px;
 }
 
 #img1-div{
@@ -38,6 +60,11 @@ img{
     max-height: 600px;
     display: block;
     margin: auto;
+}
+
+#image1:hover{
+    box-shadow: 5px 5px 10px lightgrey, -5px -5px 10px lightgrey;
+    
 }
 
 #img-caption{
@@ -56,4 +83,13 @@ img{
     font-size: 2rem; 
     margin: 0 auto;
     padding: 0px 100px 0px 100px
+}
+
+#youtube-vid{
+    display: block;
+    margin: auto;
+}
+
+footer{
+    padding-top: 10px
 }
