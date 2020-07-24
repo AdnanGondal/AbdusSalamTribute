@@ -6,9 +6,7 @@ body{
     font-family: 'Sora', sans-serif;
     color: black;
     background-color: #ffffE0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
     
 }
 
@@ -32,7 +30,9 @@ a:hover{
     
 }
 
-
+main{
+    padding-bottom: 20px;
+}
 
 h1 {
     font-size: 5rem;
@@ -84,6 +84,10 @@ img{
     margin: 0 auto;
     padding: 0px 100px 0px 100px
 }
+#career-list{
+    list-style: none;
+    padding-inline-start: 0px;
+}
 
 #youtube-vid{
     display: block;
@@ -91,5 +95,8 @@ img{
 }
 
 footer{
-    padding-top: 10px
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
